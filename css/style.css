@@ -1,0 +1,364 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto;
+}
+body {
+  height: 4000px;
+}
+.container {
+  width: 85%;
+  margin: auto;
+}
+/* ----- Start Header Section ----- */
+.header {
+  width: 100%;
+  height: 350px;
+}
+.header-content {
+  display: flex;
+  height: 350px;
+}
+.header-left {
+  background-image: url(../images/portfolio6.jpg);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: #001f3fd3;
+  width: 50%;
+  position: relative;
+  text-transform: capitalize;
+}
+.header-left h1 {
+  width: 500px;
+  position: absolute;
+  top: 20%;
+  left: 535px;
+  color: #fff;
+  font-size: 50px;
+  text-transform: capitalize;
+  z-index: 50;
+}
+.header-title-span {
+  color: #00203f;
+}
+.header-right {
+  background-color: #adf0d1;
+  width: 50%;
+}
+
+/* ----- End Header Section ----- */
+
+/* ----- End Section 1 ----- */
+
+.section1 {
+  padding: 50px 0;
+}
+.section1-content {
+  display: flex;
+}
+.section1-info {
+  padding: 50px 0;
+  width: 50%;
+}
+.section1-info h2 {
+  color: #00203f;
+  text-transform: capitalize;
+}
+.section1-info p {
+  margin: 20px 0;
+  color: gray;
+  line-height: 1.7;
+}
+.section1-choices {
+  padding: 100px 0 70px 70px;
+  width: 50%;
+  position: relative;
+}
+.section1-choices p {
+  color: gray;
+  margin-bottom: 15px;
+  padding-left: 70px;
+}
+.section1-choices i {
+  margin-right: 10px;
+  color: #00203f;
+}
+.section1-btn {
+  padding: 10px 20px;
+  background: none;
+  color: #00203f;
+  border: 2px solid #00203f;
+  border-radius: 7px;
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  outline: 0;
+}
+
+.choices-image {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  width: 544px;
+  height: 270px;
+  background-color: #001f3fb9;
+  background-image: url(../images/portfolio1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  transition: 0.6s ease-in-out;
+}
+.choices-image h2 {
+  color: #adf0d1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: capitalize;
+}
+
+/* ----- End Section 1 ----- */
+
+/* ----- Start Section 2 ----- */
+.section2 {
+  padding-bottom: 50px;
+}
+.section2-box {
+  display: flex;
+  justify-content: space-between;
+}
+.section2-box-image {
+  width: 40%;
+}
+.section2-box-image img {
+  width: 100%;
+}
+.section2-box-text {
+  width: 55%;
+  padding-top: 40px;
+  padding-right: 40px;
+  border-top: 1px solid #001f3f39;
+  border-bottom: 1px solid #001f3f39;
+}
+.section2-box-text h2 {
+  color: #00203f;
+  text-transform: capitalize;
+}
+.section2-box-text p {
+  margin: 10px 0 30px 0;
+  color: gray;
+  line-height: 1.6;
+}
+.section2-btn {
+  padding: 10px 30px;
+  color: #adf0d1;
+  background-color: #00203f;
+  border: none;
+  font-size: 18px;
+  text-transform: capitalize;
+  cursor: pointer;
+  border-radius: 7px;
+  transition: 0.5s ease-in-out;
+  outline: none;
+}
+.section2-btn:hover {
+  color: #00203f;
+  background-color: #fff;
+}
+.box-margin {
+  margin: 40px 0;
+}
+/* ----- End Section 2 ----- */
+
+/* ----- Start Contact Us Section ----- */
+.contact-us {
+  padding-top: 20px;
+}
+.contact-us-button {
+  margin-bottom: 10px;
+  padding: 70px 0;
+  text-align: center;
+  background-image: url(../images/portfolio1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: #001f3fcb;
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+}
+.contact-us-button .btn {
+  padding: 10px 40px;
+  color: #00203f;
+  background-color: #adf0d1;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  outline: none;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contact-us-button .btn:hover {
+  background-color: #fff;
+}
+.contact-us-info {
+  display: flex;
+  padding: 50px 0;
+}
+.contact-form-left {
+  width: 50%;
+}
+.contact-form-left h2 {
+  color: #00203f;
+  text-transform: capitalize;
+}
+.contact-form-left p {
+  width: 90%;
+  margin: 10px 0 30px 0;
+  color: #00203f;
+  line-height: 1.6;
+}
+.contact-form-left input {
+  width: 300px;
+  height: 35px;
+  margin-top: 15px;
+  padding: 5px;
+  outline: none;
+}
+.contact-form-right {
+  width: 50%;
+  margin-top: 15px;
+  position: relative;
+}
+textarea {
+  margin-left: 20px;
+  padding: 10px;
+  font-size: 16px;
+  text-transform: capitalize;
+  outline: none;
+}
+.form-btn {
+  padding: 10px 20px;
+  margin-top: 30px;
+  margin-left: 20px;
+  color: #fff;
+  background-color: #00203f;
+  border: none;
+  text-transform: capitalize;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+  outline: none;
+}
+.form-btn:hover {
+  background-color: #001f3fac;
+}
+.social-media-icon {
+  display: inline;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.social-media-icon i {
+  margin-left: 15px;
+  cursor: pointer;
+  transition: opacity 0.5s ease-in-out;
+}
+.social-media-icon i:hover {
+  opacity: 0.5;
+}
+.social-media-icon i:first-child {
+  color: red;
+}
+.social-media-icon i:nth-child(2) {
+  color: #0077b5;
+}
+.social-media-icon i:last-child {
+  color: #3a5895;
+}
+/* ----- End Contact Us Section ----- */
+
+/* ----- Start Slider Section ----- */
+.slider {
+  padding: 30px 0;
+}
+.slider-container {
+  position: relative;
+}
+.slide-number {
+  position: absolute;
+  padding: 0 5px;
+  left: 235px;
+  top: 10px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 20px;
+  border-radius: 5px;
+  z-index: 100;
+}
+.slider-images {
+  width: 59%;
+  height: 400px;
+  margin: auto;
+}
+.slider-images img {
+  border-radius: 5px;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s;
+  z-index: 0;
+}
+.slider-images img.active {
+  opacity: 1;
+}
+.slider-controls {
+  width: 58%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.slider-controls .prev {
+  padding: 5px 20px;
+  color: #fff;
+  background-color: #00203f;
+  border-radius: 5px;
+  margin-left: -5px;
+  cursor: pointer;
+  user-select: none;
+}
+.slider-controls .next {
+  padding: 5px 20px;
+  color: #fff;
+  background-color: #00203f;
+  border-radius: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  user-select: none;
+}
+.slider-controls .prev.disabled,
+.slider-controls .next.disabled {
+  background-color: #001f3f9e;
+  cursor: no-drop;
+}
+.indicators ul {
+  list-style: none;
+  text-align: center;
+}
+.indicators ul li {
+  display: inline-block;
+  margin: 0 5px;
+  width: 28px;
+  line-height: 28px;
+  background-color: #eee;
+  color: #00203f;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.indicators ul li.active {
+  color: #fff;
+  background-color: #00203f;
+}
+/* ----- End Slider Section ----- */
