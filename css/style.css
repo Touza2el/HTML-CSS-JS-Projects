@@ -362,3 +362,38 @@ textarea {
   background-color: #00203f;
 }
 /* ----- End Slider Section ----- */
+/* ----- Start Creative Section ----- */
+.creative-container {
+  width: 660px;
+  height: 400px;
+  background-color: #adf0d1;
+  display: inline-block;
+  position: relative;
+}
+.creative-item {
+  width: 250px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: 83%;
+  top: 17%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+.creative-item h1 {
+  color: #adf0d1;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+.creative-item h1::first-letter {
+  color: #00203f;
+}
+.creative-container:last-of-type {
+  background-color: #00203f;
+  margin-left: 20px;
+}
+
+/* ----- End Creative Section ----- */
